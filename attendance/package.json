@@ -1,0 +1,14 @@
+{
+  "name": "attendance-tracker",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node --no-warnings server.js",
+    "open": "start http://localhost:3000",
+    "init-db": "node init-db.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^5.7.0",
+    "cors": "^2.8.5"
+  }
+}
